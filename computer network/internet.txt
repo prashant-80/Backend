@@ -1,4 +1,4 @@
-//network. = it is group of system of interconnected people or items
+//network = it is group of system of interconnected people or items
 //computer networks = computer connected with each other with cablwe or wireless is called computer networkd
 //internet = in a nutshell internet is a network pof computer network
 complex web of interconnected computer network 
@@ -63,6 +63,8 @@ http is also categorised in request-response protocols
 http is stateless protocol(server do not store any information abt the client)
 http depends upon tcp 
 
+//methods= get,post,put,patch,delete
+
 
 //http request and response 
 //url  = uniform resource locater 
@@ -71,6 +73,76 @@ http depends upon tcp
 https is a stateless protocol and a lot of time user session is required 
 //how cokies wrks?
 cookies are unique idenfier string these are set by the servers through http headers 
+
+//set cookie header =when a browser wants to set a cookie iit include "set-cookie:value"
+this cookie is stored in the cookie file of the browser 
+
+//Email:SMPT(simple mail transfer protocol)
+for executing the functionality of email smtp is used one molre protocol is pop3 is use 
+in combination with smtp
+smtc also uses tcp protocol from transport layer 
+
+//how smtp works
+when an email is sent.it is sent to the senders smtp server using smtp protocol
+(also the smtp server is configured in the mail client)
+the smtp server place the email on the message queque
+smtp sever initiates trhe connection with recievers smtp server and conduts an initial smtp handshale
+then finaly it seds the email to recipents smtp server 
+the email is downloaded from recievers smtp server and then the client shows the mail
+smtp -> push protocol(used to send an mail)
+pop3 = pull protocol(usaed for downloading the mail)
+
+
+//pop3 = it downloads emaail in 4 stages
+1)connect
+2)authorize
+3)transaction
+4)update
+
+//imap(internet message eccess protocol) = emails are kept on server and not deleted 
+local copies are catched on each device 
+
+
+//transport layer is a sandwich between application layer and network layer
+//it has varipus parts..refer documentatiom
+
+
+//TRANSPORT LAYER PROTOCOL
+
+//tcp protocol(transmission control protocol)
+1)sends data
+2)segment data
+3) identify and retransmit message
+3)reliable data transfer
+
+//key features
+1)connection oriented
+2)full duplex
+3)point to point transmission
+4)error control
+5)congetion control
+
+//UDP (USER DATAGRAM protocol)
+
+//simpler than tcp
+//application that dont need relaiable delivery
+it gets the data converts it into datagram and sends it to netword layer
+//delivery of data is not gurenteed in upd
+
+why usd?
+it is faster(no load of acknowledgement)
+reliebility can be build seperately
+
+applications(XBOX)    
+//INTERNET PROTOCOL
+//ipv4 and ipv6
+
+
+
+
+
+
+
 
 
 
