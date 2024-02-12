@@ -1,0 +1,14 @@
+//javascript original name was ecmascript
+//official website = ecma script
+//vs code and firefox 
+//notes on decBatchNotes repo
+//mastring a single stack
+//focus on concepts rather than stacks
+
+
+//javascript
+1)javascript is not purely intepreted language neither purely compiled language
+//steps of execution
+1)parsing = scope resolution
+types of scopes = global,function,block
+2)execution
