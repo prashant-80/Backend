@@ -1,2 +1,1 @@
-# javascript
-To learn javascript
+To learn and build projects in backend 
